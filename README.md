@@ -187,18 +187,23 @@ Defined **Product Schema** using Mongoose and implemented a **POST API endpoint*
     }
 }, { timestamps: true });
 
-   ```
-2. **API Endpoint (`/api/products`)**
-   - Validates and stores product details in **MongoDB**.
-   - Ensures **data integrity & validation**.
+---  
+   
 
-### **Technologies Used**
-- **Node.js & Express.js**
-- **MongoDB Atlas & Mongoose**
-- **Multer (for file uploads)**
+## **Milestone 11**
+
+Welcome to **Milestone 11** of the E-commerce App project! In this milestone, we focused on creating a dynamic home page that displays all products stored in MongoDB using a backend API and frontend integration.  
+
+We built an API endpoint to fetch all product data from the database and implemented functionality on the frontend to receive and display this data dynamically. The existing product card component was utilized to render product information, enhancing the user interface with a smooth and responsive experience.  
+
+The project is organized into **backend** and **frontend** directories, maintaining a clear separation of concerns. The backend handles data retrieval and error management, while the frontend focuses on dynamic rendering using React components to create a modular and maintainable codebase.  
+
+This milestone also included updating the GitHub repository, ensuring public access, and documenting progress in the README file. The repository link was shared in the assignment submission section as part of the submission guidelines.  
+
+In the next milestone, we will work on enhancing the product details page and introducing advanced interactivity through routing and state management.  
 
 ---
 
-## **Conclusion**
-This e-commerce project follows a structured milestone-based approach, ensuring a **scalable, secure, and fully functional** web application.
+In **Milestone 12** 
 
+of the E-commerce App project, we focused on building the **My Products** page, which dynamically displays all products associated with the logged-in user's email. This milestone involved creating a backend API endpoint that filters and retrieves products from MongoDB based on the user's email, ensuring only relevant products are displayed. On the frontend, we implemented functionality to fetch and dynamically render this data using the existing product card component, providing a smooth and personalized user experience. The project maintained a clear separation of concerns between the backend's data filtering and the frontend's dynamic rendering. We also updated the GitHub repository, ensuring public access and documenting our progress. In the next milestone, we will enhance the **My Products** page by adding features for editing and deleting products, offering users more control over their listings.
