@@ -187,7 +187,7 @@ Defined **Product Schema** using Mongoose and implemented a **POST API endpoint*
     }
 }, { timestamps: true });
 
-   ```
+
 2. **API Endpoint (`/api/products`)**
    - Validates and stores product details in **MongoDB**.
    - Ensures **data integrity & validation**.
@@ -201,4 +201,49 @@ Defined **Product Schema** using Mongoose and implemented a **POST API endpoint*
 
 ## **Conclusion**
 This e-commerce project follows a structured milestone-based approach, ensuring a **scalable, secure, and fully functional** web application.
+
+## MILESTONE 11 🌟
+Write an endpoint that will send data from extract and send data from mongodb.
+How to receive data at frontend -How to display that data dynamically using product card created earlier.
+## Steps for Milestone 11📝
+Write an endpoint that will send all products data to frontend In frontend write an function to get all the data Display these data dynamically passing to product card component
+
+## MILESTONE 12 💡
+Write an endpoint that will send data by filtering with my mail and send data from mongodb.
+Receive data at frontend -How to display that data dynamically using product card created earlier.
+
+## Steps for Milestone 12📝
+Write an endpoint that will send all products with user mail to frontend In frontend write an function to get all the data Display these data dynamically passing to product card component
+
+## MILESTONE 13 💥
+Write an endpoint that will update the existing data in MongoDB.
+To auto fill the form with previous data and give option to edit.
+
+## Steps for Milestone 13📝
+Write an endpoint that will receive new data and update the existing data inside MondoDB. In frontend we will add an edit button to the product card. When click on edit we will send the data to form and make it auto fill and have option to edit those data and save.
+
+## MILESTONE 14 🔑
+ To write an endpoint that delete the product with specific ID from MongoDB
+
+## Steps for Milestone 14📝
+Write an endpoint that will Delete the data form MongoDB using ID. In frontend we will add an delete button to the product card. When click on delete button we will send the product id to server endpoint.
+
+# Milestone 15 - Navbar Component & Navigation
+
+## Learning Goals 🎯
+By the end of this milestone, we will have learned how to create a Navbar component, reuse the same component across multiple pages, and make the Navbar responsive for all screen sizes.
+
+## Steps for Milestone 15 📝
+In this milestone, we created a new Navbar component that contains navigation links to all key pages, including Home, My Products, Add Product, and Cart. The Navbar was designed to be responsive, ensuring smooth navigation on all screen sizes. To enhance usability, we implemented a mobile-friendly menu where required. We integrated the Navbar into all relevant pages of the application, making sure that navigation between pages remains seamless.
+
+
+# Milestone 16 - Product Info Page
+
+## Learning Goals 🎯
+By the end of this milestone, we will have learned how to create a new page to display individual product details, allow users to select quantity, and provide an 'Add to Cart' button for seamless shopping.
+
+## Steps for Milestone 16 📝
+In this milestone, we created a new product info page that displays all relevant product data dynamically. Each product page includes detailed information and an option to choose the desired quantity. We also added an 'Add to Cart' button to enable users to add the selected product to their cart easily.
+
+
 
