@@ -599,6 +599,46 @@ This milestone focuses on enabling users to **cancel their orders** from the fro
 Here's a clean and consistent `README.md` for **Milestone 30**, continuing from your Milestone 29 setup:
 
 ---
+# Milestone 29: Integrating PayPal Payment Gateway
+
+## Project Overview  
+This milestone introduces the *integration of an online payment system* using the *PayPal API* in our e-commerce application. It prepares the frontend to support both *Cash on Delivery (COD)* and *Online Payment* options.
+
+## Key Achievements  
+- *PayPal Developer Setup*:  
+  - Created a PayPal Developer account.
+  - Accessed the *Sandbox* environment for testing.
+  - Retrieved the *Client ID* and test *User ID* from the sandbox account.
+
+- *Frontend Integration*:  
+  - Added payment options on the *Order Confirmation* page.
+  - Created *radio buttons* to let the user select either *Cash on Delivery* or *Online Payment*.
+  - Configured the UI to display *PayPal buttons* only when "Online Payment" is selected.
+
+- *Prepared for Next Step*:  
+  - The actual implementation of PayPal payment buttons will be done in the upcoming milestone.
+
+## Folder Structure  
+
+src/
+│
+├── pages/
+│   └── OrderConfirmation.js
+├── components/
+│   └── PaymentOptions.js
+└── ...
+
+
+## Tools & Resources  
+- PayPal Developer Dashboard: https://developer.paypal.com  
+- Sandbox Credentials used for testing
+
+## Future Enhancements  
+- Add functionality for PayPal button using PayPal JavaScript SDK.
+- Integrate real payment processing and order success logic.
+- Implement payment status tracking and error handling.
+
+---
 
 # Milestone 30: Online Payment Integration Using PayPal API
 
