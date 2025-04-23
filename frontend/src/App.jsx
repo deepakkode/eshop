@@ -1,6 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import './App.css'
 import Login from './pages/login'
@@ -9,6 +7,9 @@ import Createproudct from './components/Createproudct'
 import SellerProcutPage from "./pages/SellerProductPage"
 import NavBar from "./components/nav"
 import IndividualProduct from './pages/IndividualProduct'
+import Cart from  "./pages/Cart"
+import Profile from './pages/Profile'
+import Order from "./pages/Order"
 function App() {
   
 
@@ -22,6 +23,9 @@ function App() {
             <Route path="/create" element={<Createproudct/>}></Route>
             <Route path="/modify" element={<SellerProcutPage/>}></Route>
             <Route path="/pro" element={<IndividualProduct/>}></Route>
+            <Route path="/cart" element={<Cart/>}></Route>
+            <Route path="/profile" element={<Profile/>}></Route>
+            <Route path="/order" element={<Order/>}></Route>
 
        </Routes>
      </BrowserRouter>
